@@ -74,32 +74,9 @@ It’s perfect for **SDEs, open-source contributors, and AI engineers** who want
 | **Infrastructure** | Docker-ready, self-hosted compatible |
 | **Version Control** | GitHub, GitLab |
 
----
 
-## 🧭 Repository Structure
 
-AI-Code-Review-Assistant/
-├── .github/
-│ └── workflows/
-│ └── ai-review.yml
-├── pr_agent/ # Core AI logic
-├── custom_ai/
-│ ├── testplan.py # GPT-4o test plan generator
-│ ├── review_modes.py # Multi-reviewer persona logic
-│ ├── security_review.py # OWASP-style security checks
-│ └── utils/
-│ └── openai_client.py # Efficient API wrapper
-├── api/
-│ └── review_server.py # Optional FastAPI microservice
-├── CHANGELOG.md
-├── .pr_agent.toml
-├── README.md
-└── requirements.txt
 
-yaml
-Copy code
-
----
 
 ## ⚙️ Installation & Setup
 
